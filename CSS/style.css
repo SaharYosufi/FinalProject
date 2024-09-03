@@ -1,0 +1,228 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #efeff6;
+    justify-content: center;
+    padding: 5px;
+    height: 70px;
+}
+
+
+.search-bar button{
+    top: 14px;
+    right: 10.5%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #2a4d69;
+    color: white;
+    transform: scale(0.9);
+    height: 38px;
+    width: 40px;
+}
+
+.search-bar input{
+    top: 15px;
+    right: 10%;
+    position: absolute;
+    width: 30%;
+    border-radius: 80px;
+    border:none;
+    outline:none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.menue .btn .fa-bars {
+    font-size: 30px;
+    position: absolute;
+    top: 18px;
+   
+  
+}
+
+.offcanvas-body{
+    background-color: #2a4d69;
+    color: white;
+}
+
+.offcanvas-header{
+    background-color: #2a4d69;
+    color: white;
+}
+
+.offcanvas-body ul{
+    list-style-type: none;
+    margin-block-start: 0;
+
+}
+
+.id img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    top: 16px;
+    position: absolute;
+}
+
+
+
+
+
+.scroll-bg{
+    background-color: #efeff6;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #2a4d69;
+    border: 20px;
+    
+}
+
+.scroll-div{
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #efeff6;
+}
+
+.scroll-object .list-group a .active{
+    background-color: white;
+}
+
+.scroll-object .list-group a{
+    background-color: #efeff6;
+    color: black;
+    border: none;
+}
+
+.scroll-object .list-group a div img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.scroll-object .list-group a div p{
+    font-size: 15px;
+    left: 0%;
+    top: 2px;
+   
+}
+
+.scroll-object .list-group a .name{
+    top: 9px;
+    position: relative;
+}
+
+.scroll-object .list-group a div{
+    height: 50px;
+    align-items: center;
+    padding: 2px;
+    display: flex;
+}
+
+.scroll-object .list-group a div .icon button .fa-envelope{
+    font-size: 25px;
+}
+
+.scroll-object .list-group a div .icon button{
+    border: none;
+}
+
+.post-job{
+    background-color: #efeff6;
+    
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #2a4d69;
+    border: 20px;
+}
+
+.post-job .card-body{
+    background-color: #efeff6;
+    border: none;
+}
+
+.post-job .card-body .btn{
+    background-color: #2a4d69;
+    color: white;
+}
+
+.container-fluid{
+    float: left;
+    width: 100%;
+}
+
+.employee{
+    height: 535;
+    border-radius: 20px;
+    background-color: #efeff6;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.details{
+    padding: 0%;
+    margin: 0%;
+}
+
+.details .employee-header{
+    height: fit-content;
+}
+
+.details .employee-header .head-img{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0%;
+    display: inline-block;
+}
+
+.details .employee-header .employ-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 160px;
+    left: 55%;
+}
+
+
+
+
+.employee-header h2{
+    position: absolute;
+    top: 133px;
+    left: 68%
+}
+
+.info{
+    overflow: hidden;
+    width: max-content;
+}
+
+.info .link a{
+    background-color: #2a4d69;
+    color: white;
+    font-size: 15px;
+}
+
+.experience{
+    margin-top: 200px;
+    margin-left: 45px;
+    position: relative;
+}
+
+
+
+
