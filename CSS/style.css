@@ -139,6 +139,8 @@ header{
 
 .scroll-object .list-group a div .icon button{
     border: none;
+    background-color: #efeff6;
+    color: #2a4d69;
 }
 
 .post-job{
