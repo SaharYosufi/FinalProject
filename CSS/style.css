@@ -11,7 +11,6 @@ header{
     height: 70px;
 }
 
-
 .search-bar button{
     top: 14px;
     right: 10.5%;
@@ -193,24 +192,24 @@ header{
     display: inline-block;
 }
 
-.details .employee-header .employ-img{
+.employ-img{
     height: 60px;
     width: 60px;
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
+}
+
+.employ-img-div{
     position: absolute;
-    top: 160px;
+    top: 175px;
     left: 55%;
 }
 
-
-
-
 .employee-header h2{
     position: absolute;
-    top: 133px;
-    left: 68%
+    top: 23%;
+    left: 69%
 }
 
 .info{
@@ -252,23 +251,46 @@ header{
         margin-top: 20px; 
     }
 
-    
-
     .post-job{
         margin: 0 20px;
     }
 
     .employee-header h2{
-       
-        top: 680px;
-        left: 45%
+        position: absolute;
+        top: 107%;
+        left: 42%;
     }
 
-    .details .employee-header .employ-img{
-        top: 710px;
+    .employ-img-div{
+        top: 112%;
+        left: 20%
+    }
+}
+
+@media (max-width: 500px) {
+    .employ-img-div{
+        top: 115%;
         left: 20%
     }
 
+    .employee-header h2{
+        position: absolute;
+        top: 110%;
+    }
+
+    .title {
+        font-size: xx-small;
+    }
+
+    .search-bar input{
+        display: none;
+    }
+
+    .search-bar button:hover + .search-bar input{
+        display: inline-block;
+        background-color: white;
+    }
 }
+
 
 
