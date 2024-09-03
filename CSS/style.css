@@ -257,25 +257,25 @@ header{
 
     .employee-header h2{
         position: absolute;
-        top: 107%;
+        top: 685px;
         left: 42%;
     }
 
     .employ-img-div{
-        top: 112%;
+        top: 720px;
         left: 20%
     }
 }
 
 @media (max-width: 500px) {
     .employ-img-div{
-        top: 115%;
+        top: 750px;
         left: 20%
     }
 
     .employee-header h2{
         position: absolute;
-        top: 110%;
+        top: 720px;
     }
 
     .title {
